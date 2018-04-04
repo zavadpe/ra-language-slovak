@@ -75,8 +75,8 @@ module.exports = {
           page_out_from_end: 'Nemožno ísť za poslednú stranu',
           page_out_from_begin: 'Nemožno ísť pred prvú stranu',
           page_range_info: '%{offsetBegin}-%{offsetEnd} z %{total}',
-          next: 'Nasledujúci',
-          prev: 'Predchádzajúci',
+          next: 'Ďalšia',
+          prev: 'Predošlá',
       },
       auth: {
           username: 'Užívateľské meno',
