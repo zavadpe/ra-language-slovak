@@ -2,12 +2,13 @@ module.exports = {
   ra: {
     action: {
       add_filter: 'Pridaj filter',
-      add: 'Pridať',
+      add: 'Pridaj',
       back: 'Späť',
       bulk_actions: '1 záznam označený |||| %{smart_count} záznamy označené',
-      cancel: 'Zrušiť',
+      cancel: 'Zruš',
       clear_input_value: 'Vymazať',
-      clone: "Kopírovať",
+      clone: 'Kopírovať',
+      confirm: "Potvrdiť",
       create: 'Vytvoriť',
       delete: 'Zmazať',
       edit: 'Upraviť',
@@ -21,10 +22,15 @@ module.exports = {
       show: 'Ukázať',
       sort: 'Zotriediť',
       undo: 'Vrátiť zmeny',
+      expand: 'Rozbaliť',
+      close: 'Zavrieť',
+      open_menu: 'Otvor menu',
+      close_menu: 'Zavri menu',
     },
     boolean: {
       true: 'Áno',
       false: 'Nie',
+      null: '',
     },
     page: {
       create: 'Vytvor %{name}',
@@ -35,6 +41,8 @@ module.exports = {
       loading: 'Načítavam',
       not_found: 'Nenájdené',
       show: '%{name} #%{id}',
+      empty: 'Žiadne záznamy',
+      invite: 'Pozvať',
     },
     input: {
       file: {
@@ -49,6 +57,10 @@ module.exports = {
         all_missing: 'Odkazované dáta neboli nájdené.',
         many_missing: 'Niektoré z príslušných odkazov už nie sú k dispozícií.',
         single_missing: 'Príslušný odkaz už nie sú k dispozícií.',
+      },
+      password: {
+        toggle_visible: 'Skryť heslo',
+        toggle_hidden: 'Ukázať heslo',
       },
     },
     message: {
@@ -65,6 +77,7 @@ module.exports = {
       no: 'Nie',
       not_found: 'Zadali ste zlú adresu URL alebo link.',
       yes: 'Áno',
+      unsaved_changes: 'Niektoré zmeny neboli uložené, naozaj chcete pokračovať?',
     },
     navigation: {
       no_results: 'Žiadne výsledky',
@@ -78,6 +91,7 @@ module.exports = {
       prev: 'Predošlá',
     },
     auth: {
+      auth_check_error: 'Pre pokračovanie sa prihláste, prosím.',
       user_menu: 'Profil',
       username: 'Užívateľské meno',
       password: 'Heslo',
@@ -93,7 +107,9 @@ module.exports = {
       item_doesnt_exist: 'Záznam neexistuje',
       http_error: 'Chyba komunikácie zo serverom',
       data_provider_error: 'Chyba poskytovateľa dát. Skontrolujte výstup z konzoly.',
+      i18n_error: 'Chyba prekladu pre zvolený jazyk.',
       canceled: 'Akcia zrušená',
+      logged_out: 'Pripojenie vypršalo. Pripojte sa znovu.',
     },
     validation: {
       required: 'Požadovaný',
