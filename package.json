@@ -1,6 +1,6 @@
 {
     "name": "ra-language-slovak",
-    "version": "3.4.2",
+    "version": "3.6.2",
     "description": "Slovak messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "main": "index.js",
     "scripts": {
